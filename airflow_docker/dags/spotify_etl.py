@@ -35,8 +35,8 @@ def comprobar_datos(df: pd.DataFrame) -> bool:
 
 def run_etl_spotify():
     DATABASE = "postgresql://postgres:postgres@localhost/spotify_etl"
-    USER_ID = 'Lord chaqueño ll'  # Tu usuario de spotify
-    TOKEN = 'BQD0-An6DLcbLIAGWIiNDgi593oUBT6psEKqup6CgLHjAh2GBEcxAMvaRIJueFRD0Xigi1-0WiM22mV5vC5gOcw1_X-HlSzorI2USpxjz9hwRf8HCCS0NF3woNGYntyWyQvFcxuWch9iYGXYk6O489XT-B1xN_RJctdDEcqZZ9aEjq9Tgp0Z2XMQM-VDT0SsueiwW0EF'
+    USER_ID = ''  # Tu usuario de spotify
+    TOKEN = '' # Tu token 
     # Extraer parte del proceso ETL
     headers = {
         'Accept': 'application/json',
