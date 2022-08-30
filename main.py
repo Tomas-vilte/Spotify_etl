@@ -5,8 +5,8 @@ import pandas as pd
 import psycopg2
 
 DATABASE = "postgresql://postgres:postgres@localhost/spotify_etl"
-USER_ID = 'Lord chaqueño ll'  # Tu usuario de spotify
-TOKEN = 'BQA8rmqyVys4l6qh869XIpUwwY_Ua5Q0kMuQ6APGf7XPxZIUL2X1MvAviPzkxwmDQOYft2ROUhiQphftcDO1yfcmLCbzovciDNUmcV_fCVKwvhdlBGyFC0hDOrztPNtiC0lwd8AN40qW1GaWO_twsdxKaXptWx7YDnlzB2n94f0dN1Ti12ZctHN2JiZdsNR2KyF7GXXf'
+USER_ID = ''  # Tu usuario de spotify
+TOKEN = '' # Tu token
 
 def comprobar_datos(df: pd.DataFrame) -> bool:
     # Comprobrar si el DataFrame esta vacio
